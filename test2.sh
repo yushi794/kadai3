@@ -2,7 +2,7 @@
 
 result=$(./greatest_common_divisor.sh 99 1045)
 if [ $result = 11 ] ; then
-echo "OK"
+echo 1
 else
-echo "NG"
+echo 0
 fi
